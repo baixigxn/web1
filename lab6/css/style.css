@@ -1,0 +1,27 @@
+body{
+	color:gray;
+	font-size:12px,Arial;
+	line-height:2em;
+}
+.p{
+	color:white;
+}
+.p:hover{
+	color:#b9f605;
+	text-decoration:none;
+}
+a{
+	color:#727272;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+#g{
+	font-size:14px;
+	color:#b9f605;
+	font-wight:bold;
+}
+#h{
+	color:#fdb306;
+}
