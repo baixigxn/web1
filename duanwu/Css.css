@@ -1,0 +1,33 @@
+*{padding-bottom:0px;margin:0px;background:#26af60;}
+body{font:18px "宋体";}
+ul{list-style:none;}
+a:link{text-decoration:none;}
+a:visited{color:#fc9;}
+a:hover{text-decoration: underline;}
+a:active{color:#333;}
+.logo{width:1000px;height:auto;margin:0px auto;}
+.menu{width:100%;height:40px;background:#26af60;}
+.menu ul{width:1200px;margin:0px auto;}
+.menu ul li{float:left;width:118px;line-height:40px;}
+.menu a{font-size:16px;color:#ccc;}
+.clear{clear:left;}
+.banner img{width:100%;height:auto;}
+.main{width:1000px;height:auto;margin:0px auto;}
+.main .main-left{float:left;width:500px;margin:15px auto;}
+.list{width:1000px;height:auto; margin:0px auto;}
+.list li{list-style-type:circle;}
+.list-1{float:left;width:450px;height:auto;margin:15px;}
+.list-1 .list-left{float:left; width:200px;height:auto;margin:15px auto;}
+.list-2{float:right; width:450px;height:auto;margin:15px;}
+.list-2 .list-left{float:left; width:200px;height:auto;margin:15px auto;}
+.list-3{float:left; width:450px;height:auto;margin:15px;}
+.list-3 .list-left{float:left; width:200px;height:auto;margin:15px auto;}
+.list-4{float:right; width:450px;height:auto;margin:15px;}
+.list-4 .list-left{float:left; width:200px;height:auto;margin:10px auto;}
+.xisu{width:1000px;height:auto;margin:0px auto;}
+.xisu .xisu-left{float:left;width:450px;margin:15px;}
+.xisu .xisu-right{float:right;width:450px;margin:15px;}
+.xisup{width:1000px;height:auto;margin:0px auto;}
+.xisup .xisup-left{float:left;width:400px;margin:15px;}
+.xisup .xisup-right{float:right;width:450px;margin:15px;}
+.footer{width:100%; height:100px;background:#888;color:#aaa;text-align:center;}
