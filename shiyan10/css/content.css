@@ -24,55 +24,79 @@ li{
 	padding:0px;}
 
 /*页面顶部*/
-.header{
+#header{
 	width:100%;
-	height:164px;
+	height:205px;
 	background-image:url(../images/bg.gif);
 	background-position:center;}
-	.head_content{
+#banner{
+	width:1000px;
+	height:164px;
+	position:center;
+}
+
+.head_content{
 	width:1000px;
 	margin:auto;}
-.logo{
+.nav_content ul li{
+	font-size:16px;
+	color:#fff;
+}
+#logo{
 	float:left;
+	position:center;
 	margin-top:38px;
 	margin-left:25px;}
 
-/*导航*/
-.nav{
+#nav{
 	width:100%;
 	height:40px;
 	background:url(../images/nav.jpg);}
+.nav_body{
+	width:1000px;
+	position:center;
+}
+
 .nav_content{
-	width:1000px;}
-.n_content{
 	float:left;
 	width:800px;
 	font-weight:bolder;
 	color:#FFF;}
-.n_content a{
+.nav_content ul li{
+	float:left;
+}
+.nav_content a{
 	color:#FFF;
 	width:65px;
 	line-height:40px;
 	font-weight:bold;
+	font-size:16px;
 	text-align:center;}
-.n_content a:hover{
+.nav_content a:hover{
 	color:#f9f603;
 	text-decoration:none;}
-#col_wei{
-	color:#f9f603;
+a{
+	color:#691122;
 	width:45px;}
 #long{
 	width:105px;}
 .nav_search{
-	width:190px;
 	float:left;
-	padding:10px 0;}
-.search{
+	margin-top:10px;
+	padding:0px 0px;}
+.nav_search .one{
 	width:140px;
 	height:19px;
-	float:left;
-	border:1px solid #FFF;
-	background-color:#f8f5ee;}
+	line-height:19px;
+	background:#f8f5ee;
+	padding:0px 0px;}
+.nav_search .two{
+	width:44px;
+	height:21px;
+	line-height:21px;
+	color:#fff;
+	border:1px solid #f8f5ee;
+	background-color:#000;}
 .search_btn{
 	width:44px;
 	height:21px;
@@ -80,18 +104,153 @@ li{
 	background-color:#000;
 	border:1px solid #f8f5ee;
 	color:#FFF;}
+.clear{
+	clear:both;
+	width:1000px;
+	height:40px;
+	margin:0px auto;
+	line-height: 40px;
+	padding:0px;
+}
+
+
+
+
 
 	/*页面中部*/
-.content{
+#content{
 	margin-bottom:10px;
 	width:1000px;
-	overflow:hidden
+	overflow:hidden;
 	}
+#content .content_left{
+	width:700px;
+	float: left;
+
+}
+.content_left .shang h1{
+	font-size: 16px;
+	line-height: 45px;
+	height: 45px;
+	text-align:center;
+	border-bottom: 1px solid #c9baa5;
+}
+.content_left .shang p{
+	font-size: 12px;
+	text-align: center;
+	color:#757575;
+	margin: 10px;
+}
+#content .content_right{
+	width:280px;
+	float: left;
+	margin-left: 16px;
+}
+.content_top p{
+	width:600px;
+	text-indent: 2em;
+	margin-top: 5px;
+	line-height: 24px;
+}
+.content_mid img{
+	width:600px;
+	height:366px;
+	margin:20px;
+	position:relative;
+	left:30px;
+}
+.content_bot p{
+	width:600px;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.xia{
+	height:40px;
+	line-height: 40px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.xia p{
+	width:600px;
+	text-align: center;
+}
+.xia a{
+	margin-right: 40px;
+	color:#844004;
+}
+
+
+
+
+.content_right .content_right_top{
+	border:1px solid #c9baa5;
+	background-image: url(../images/bg.png);
+	margin-right: 20px;
+}
+.content_right_top img{
+	margin-right: 10px;
+	position: relative;
+	left:20px;
+}
+.content_right_top ul li a{
+	line-height: 30px;
+	margin-left: 13px;
+	color:#691122;
+}
+.content_right .show{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	position: relative;
+	left:110px;
+}
+.content_right_bot{
+	width:280px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-image: url(../images/show_bg.png);
+	height:362px;
+}
+.content_right_bot .mingjia{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.content_right_bot p{
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.content_right_bot b{
+	font-weight: block;
+	color:#b70000;
+	line-height: 20px;
+}
+.content_right_bot .before{
+	position: relative;
+	left:20px;
+}
+.content_right_bot .next{
+	width:28px;
+	height: 23px;
+	position: relative;
+	left:5px;
+}
+.content_right_bot .more{
+	position: relative;
+	left:150px;
+	bottom:8px;
+}
+
+
+
+
 .bread{
 	height:40px;
 	line-height:40px;
 	padding-left:43px;
 	}
+
+
+
 
 .listleft{
 	float:left;
@@ -175,15 +334,30 @@ li{
 	line-height:20px;}	
 
 /**底部**/
-.footer {
+
+#footer {
 	background:url(../images/foot.gif);
 	width:100%;
 	background-position:center;	
 	padding:30px 0 0 0;
 	text-align:center;
 	height:105px;
-	clear:both;}
-.footer h1{	
-	font-size:12px;}
-.footer p{ 
-	margin-top:10px;}
+	float:left;
+	position: relative;
+	top:50px;
+	}
+#footer ul li{
+	width:80px;
+	height:0px;
+	float:left;
+	margin:0px auto;
+	padding:30px;
+	position:relative;
+	left:300px;
+}
+#footer a{
+	color:#691122;
+}
+#footer img p{
+	margin-top:10px;
+}
