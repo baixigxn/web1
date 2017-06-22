@@ -132,16 +132,10 @@ body{
 
 
 
-
-
-
-.hr_bot hr{
-	width:1000px;
-	border:1px solid #aaa;
-	margin:40px 0px 30px 0px;
-}
 .footer{
 	width:1004px;
+	margin-top: 50px;
+	float: left;
 }
 .footer_top{
 	width:1004px;
